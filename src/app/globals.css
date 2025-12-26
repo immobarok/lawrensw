@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+.leaflet-marker-icon {
+  margin-left: -12px !important;
+  margin-top: -41px !important;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --font-quloon: var(--font-text-quloon);
+  --font-jakarta: var(--font-jakarta-sans);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-dark: #e6ebf3;
+  --color-light: #f4f6f8;
+  --color-gray: #637381;
+  --color-blue: #013a8a;
+  --color-heading-dark: #212b36;
+  --color-secondary: #fd9215;
+  --color-secondary-light: #ec8a17;
+  --color-bg-light: #f4f6f8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide browser's automatic password reveal buttons */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none !important;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-strong-password-auto-fill-button {
+  display: none !important;
+}
+
+
+.prose img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 1rem auto !important;
+  border-radius: 0.5rem;
+}
+
+.prose figure {
+  margin: 1.5rem 0 !important;
+}
+
+.prose figure img {
+  margin: 0 auto !important;
+}

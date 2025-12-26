@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "MV Greg Mortimer",
+    "image": "/assets/ship1.jpg",
+    "capacity": "150 people",
+    "comfortLevel": "Ultra-Luxurious",
+    "description": "The MV Sylvia Earle represents the pinnacle of expedition cruising, combining cutting-edge technology with luxurious accommodations. This state-of-the-art vessel is designed to navigate the world's most remote waters while providing guests with unparalleled comfort and safety.",
+    "yearBuilt": 2019,
+    "length": "104.4 meters",
+    "iceClass": "1A",
+    "features": [
+      "Stabilizers",
+      "Zodiac Fleet",
+      "Science Lab",
+      "Observation Deck"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "MV Ocean Endeavour",
+    "image": "/assets/ship1.jpg",
+    "capacity": "198 people",
+    "comfortLevel": "Comfort",
+    "description": "The MV Sylvia Earle represents the pinnacle of expedition cruising, combining cutting-edge technology with luxurious accommodations. This state-of-the-art vessel is designed to navigate the world's most remote waters while providing guests with unparalleled comfort and safety.",
+    "yearBuilt": 1982,
+    "length": "137 meters",
+    "iceClass": "1B",
+    "features": ["Pool", "Sauna", "Yoga Studio", "Multiple Restaurants"]
+  },
+  {
+    "id": 3,
+    "name": "MS Fram",
+    "image": "/assets/ship1.jpg",
+    "capacity": "318 people",
+    "comfortLevel": "Premium",
+    "description": "The MV Sylvia Earle represents the pinnacle of expedition cruising, combining cutting-edge technology with luxurious accommodations. This state-of-the-art vessel is designed to navigate the world's most remote waters while providing guests with unparalleled comfort and safety.",
+    "yearBuilt": 2007,
+    "length": "114 meters",
+    "iceClass": "1B",
+    "features": [
+      "Explorer Lounge",
+      "Two Jacuzzis",
+      "Lecture Theaters",
+      "Art Gallery"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "MV Plancius",
+    "image": "/assets/ship1.jpg",
+    "capacity": "116 people",
+    "comfortLevel": "Comfort",
+    "description": "The MV Sylvia Earle represents the pinnacle of expedition cruising, combining cutting-edge technology with luxurious accommodations. This state-of-the-art vessel is designed to navigate the world's most remote waters while providing guests with unparalleled comfort and safety.",
+    "yearBuilt": 1976,
+    "length": "89 meters",
+    "iceClass": "1D",
+    "features": [
+      "Observation Lounge",
+      "Zodiac Platforms",
+      "Library",
+      "Dining Room"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "MV Sylvia Earle",
+    "image": "/assets/ship1.jpg",
+    "capacity": "132 people",
+    "comfortLevel": "Ultra-Luxurious",
+    "description": "The MV Sylvia Earle represents the pinnacle of expedition cruising, combining cutting-edge technology with luxurious accommodations. This state-of-the-art vessel is designed to navigate the world's most remote waters while providing guests with unparalleled comfort and safety.",
+    "yearBuilt": 2021,
+    "length": "104 meters",
+    "iceClass": "1A",
+    "features": ["Glass Atrium", "Science Center", "Pool", "Gym", "Spa"]
+  },
+  {
+    "id": 6,
+    "name": "MV Ortelius",
+    "image": "/assets/ship1.jpg",
+    "capacity": "108 people",
+    "comfortLevel": "Adventure",
+    "description": "The MV Sylvia Earle represents the pinnacle of expedition cruising, combining cutting-edge technology with luxurious accommodations. This state-of-the-art vessel is designed to navigate the world's most remote waters while providing guests with unparalleled comfort and safety.",
+    "yearBuilt": 1989,
+    "length": "91 meters",
+    "iceClass": "1A",
+    "features": [
+      "Helicopter Deck",
+      "Robust Hull",
+      "Observation Deck",
+      "Lecture Room"
+    ]
+  }
+]
